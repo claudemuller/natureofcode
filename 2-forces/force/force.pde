@@ -10,6 +10,7 @@ void draw() {
   
   PVector gravity = new PVector(0, 0.3);
   m.applyForce(gravity);
+  
   if (mousePressed) {
     PVector wind = new PVector(0.2, 0);
     m.applyForce(wind);
